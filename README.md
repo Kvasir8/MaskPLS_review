@@ -1,3 +1,23 @@
+# environment.yml
+name: maskpls
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python==3.9
+  - click==8.1.3
+  - easydict==1.9
+  - matplotlib==3.5.1
+  - MinkowskiEngine==0.5.4
+  - numpy==1.20.3
+  - open3d==0.13.0
+  - pykeops==2.1
+  - pytorch_lightning==1.5.6
+  - PyYAML==6.0
+  - scipy==1.7.3
+  - pytorch::torch==1.10.1+cu113
+
+
 # Mask-Based Panoptic LiDAR Segmentation for Autonomous Driving
 
 This repository contains the implementation of our [paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2023ral.pdf).
